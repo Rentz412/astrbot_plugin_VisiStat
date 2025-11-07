@@ -114,7 +114,7 @@ Windows 用户： 如果获取不到温度信息，请确保 wmi 库已成功安
         https://github.com/yanfd/astrbot_plugin_server
         https://github.com/BB0813/astrbot_plugin_sysinfoimg/blob/master/metadata.yaml
 
-协助：Gemini AI模型
+协助：此插件由Gemini AI模型编写
 
 ## 🤝 参与贡献
 1. Fork 本仓库
