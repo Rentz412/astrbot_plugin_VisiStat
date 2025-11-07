@@ -69,11 +69,11 @@ Tips:内置两张壁纸，默认使用bg2.png（横版），可自行切换bg1.p
 | 字段 | 描述 | 默认值 | 关键说明 |
 | :--- | :--- | :--- | :--- |
 | `main_title` | 卡片顶部的主标题。 | `"服务器运行状态"` | |
-| `user_config.fixed_user_name` | 固定显示的用户昵称。 | `"AstroBot 用户"` | |
+| `user_config.fixed_user_name` | 固定显示的用户昵称。 | `"AstrBot 用户"` | |
 | `user_config.fixed_avatar_path` | 本地头像图片路径。 | `""` | 相对于插件根目录，留空则使用默认占位符。 |
 | `monitor_temp_cpu` | 是否监控 CPU 温度。 | `true` | |
 | `temp_unit` | 温度单位。 | `"C"` | 可选 `"C"` (摄氏度) 或 `"F"` (华氏度)。 |
-| `layout_config.horizontal_scale` | **横屏模式整体缩放因子。** | `1.0` | 建议根据卡片宽度调整，如 `1.2` 放大 20%。 |
+| `layout_config.horizontal_scale` | **横屏模式整体缩放因子。** | `1.4` | 建议根据卡片宽度调整，如 `1.2` 放大 20%。 |
 
 
 ## 📌 注意事项
