@@ -61,12 +61,7 @@ wmi; platform_system == "Windows"
 
 发送以下任一命令，即可获取服务器状态卡片：
 
-Plaintext
-
-
-/状态
-/info
-/status
+/状态  或  /info  或  /status
 
 
 效果示例：
@@ -111,12 +106,14 @@ layout_config.horizontal_scale
 ## 📌 注意事项
 
 Linux/macOS 用户： 确保您的系统环境能够顺利安装 psutil 和 matplotlib 的依赖库（通常需要 python3-dev 等开发包）。
+
 Windows 用户： 如果获取不到温度信息，请确保 wmi 库已成功安装（已包含在带环境标记的 requirements.txt 中）。
 
 ## 🤝 鸣谢
 借鉴插件：
         https://github.com/yanfd/astrbot_plugin_server
         https://github.com/BB0813/astrbot_plugin_sysinfoimg/blob/master/metadata.yaml
+
 协助：Gemini AI模型
 
 ## 🤝 参与贡献
