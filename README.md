@@ -38,12 +38,12 @@ pip install -r requirements.txt
 
 requirements.txt 内容 (包含平台特定依赖):
 
-Plaintext
-
-
 psutil
+
 matplotlib
+
 Pillow
+
 wmi; platform_system == "Windows"
 
 
@@ -55,11 +55,16 @@ wmi; platform_system == "Windows"
 
 发送以下任一命令，即可获取服务器状态卡片：
 
-/状态  或  /info  或  /status
+/状态  
+
+/info
+
+/status
 
 
 效果示例：
 ![](https://github.com/Rentz412/astrbot_plugin_VisiStat/blob/origin/ciallo!.png)
+Tips:内置两张壁纸，默认使用bg2.png（横版），可自行切换bg1.png查看竖版
 
 ## ⚙️ 配置说明
 
