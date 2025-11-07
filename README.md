@@ -30,18 +30,17 @@ Markdown
 ```bash
 cd /AstrBot/data/plugins
 git clone https://github.com/Rentz412/astrbot_plugin_VisiStat.git
+```
 
 
-
-2. 安装依赖
+### 2. 安装依赖
 
 本插件依赖以下 Python 包，请确保您的环境中已安装它们。建议使用 requirements.txt 进行安装：
 
-Bash
-
+```bash
 cd /AstrBot/data/plugins/astrbot_plugin_VisiStat
 pip install -r requirements.txt
-
+```
 
 requirements.txt 内容 (包含平台特定依赖):
 
@@ -55,10 +54,10 @@ wmi; platform_system == "Windows"
 
 
 
-⌨️ 使用命令
+## ⌨️ 使用命令
 
 
-基础命令
+###基础命令
 
 发送以下任一命令，即可获取服务器状态卡片：
 
@@ -73,7 +72,7 @@ Plaintext
 效果示例：
 ![](https://github.com/Rentz412/astrbot_plugin_VisiStat/blob/origin/ciallo!.png)
 
-⚙️ 配置说明
+## ⚙️ 配置说明
 
 插件配置位于 _conf_schema.json（或您在 AstrBot WebUI/配置文件中的相应位置）。以下是一些关键配置项：
 字段
@@ -109,23 +108,23 @@ layout_config.horizontal_scale
 建议根据卡片宽度调整，如 1.2 放大 20%。
 
 
-📌 注意事项
+## 📌 注意事项
 
 Linux/macOS 用户： 确保您的系统环境能够顺利安装 psutil 和 matplotlib 的依赖库（通常需要 python3-dev 等开发包）。
 Windows 用户： 如果获取不到温度信息，请确保 wmi 库已成功安装（已包含在带环境标记的 requirements.txt 中）。
 
-🤝 鸣谢
+## 🤝 鸣谢
 借鉴插件：
         https://github.com/yanfd/astrbot_plugin_server
         https://github.com/BB0813/astrbot_plugin_sysinfoimg/blob/master/metadata.yaml
 协助：Gemini AI模型
 
-🤝 参与贡献
+## 🤝 参与贡献
 1. Fork 本仓库
 2. 创建新分支 (`git checkout -b feature/awesome-feature`)
 3. 提交修改 (`git commit -m 'Add some feature'`)
 4. 推送更改 (`git push origin feature/awesome-feature`)
 5. 创建 Pull Request
 
-📜 开源协议
+## 📜 开源协议
 本项目采用 [MIT License](LICENSE)
