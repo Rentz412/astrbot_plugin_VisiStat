@@ -1,0 +1,148 @@
+{
+    "main_title": {
+        "description": "卡片顶部的主标题",
+        "type": "string",
+        "default": "服务器运行状态"
+    },
+    "custom_name": {
+        "description": "自定义系统信息/名称（留空或'default'显示系统信息）",
+        "type": "string",
+        "default": "default"
+    },
+    "user_config": {
+        "description": "用户和头像配置",
+        "type": "object",
+        "items": {
+            "fixed_user_name": {
+                "description": "固定显示的用户昵称",
+                "type": "string",
+                "default": "AstrBot 用户"
+            },
+            "fixed_avatar_path": {
+                "description": "本地头像图片路径（相对于插件根目录）",
+                "type": "string",
+                "default": "resources/avatar.png",
+                "hint": "例如：resources/avatar.png，为空则使用默认占位符"
+            }
+        }
+    },
+    "background_config": {
+        "description": "背景图片和模糊设置",
+        "type": "object",
+        "items": {
+            "image_path": {
+                "description": "背景图片路径（相对于插件根目录）",
+                "type": "string",
+                "default": "resources/bg1.png",
+                "hint": "例如：resources/bg1.png，为空则使用纯色背景"
+            },
+            "blur_radius": {
+                "description": "背景模糊半径 (0为不模糊)",
+                "type": "int", 
+                "default": 10
+            }
+        }
+    },
+    "font_config": {
+        "description": "字体配置",
+        "type": "object",
+        "items": {
+            "content_font_path": {
+                "description": "字体文件路径（ttf文件，相对于插件根目录）",
+                "type": "string",
+                "default": "fonts/content.ttf",
+                "hint": "例如：fonts/content.ttf，为空则尝试使用本机字体"
+            }
+        }
+    },
+    "color_config": {
+        "description": "颜色配置",
+        "type": "object",
+        "items": {
+            "background": {
+                "description": "纯色背景色（当无背景图时生效）",
+                "type": "string",
+                "default": "#ffffff",
+                "hint": "16进制颜色代码，例如#ffffff"
+            },
+            "bing_dark": {
+                "description": "饼图已占用色",
+                "type": "string",
+                "default": "#4c51bf",
+                "hint": "16进制颜色代码"
+            },
+            "bing_light": {
+                "description": "饼图未占用色",
+                "type": "string",
+                "default": "#a8a8a8",
+                "hint": "16进制颜色代码"
+            },
+            "font_color": {
+                "description": "正文字体颜色",
+                "type": "string",
+                "default": "#1a202c",
+                "hint": "16进制颜色代码"
+            },
+            "title_font_color": {
+                "description": "主标题和昵称字体颜色",
+                "type": "string",
+                "default": "#1a202c",
+                "hint": "16进制颜色代码"
+            }
+        }
+    },
+    "sensor_config": {
+        "description": "传感器和温度显示设置",
+        "type": "object",
+        "items": {
+            "monitor_cpu_temp": {
+                "description": "是否监控CPU温度",
+                "type": "bool",
+                "default": true
+            },
+            "monitor_gpu_temp": {
+                "description": "是否监控GPU温度（Win端可能无法监控）",
+                "type": "bool",
+                "default": false
+            },
+            "monitor_bat_temp": {
+                "description": "是否监控电池温度（笔记本或移动设备）",
+                "type": "bool",
+                "default": false
+            },
+            "monitor_battery_status": {
+                "description": "是否显示电池状态和电量（笔记本或移动设备）",
+                "type": "bool",
+                "default": true
+            },
+            "temp_unit": {
+                "description": "温度单位 ('C' 或 'F')",
+                "type": "string",
+                "default": "C"
+            },
+            "show_temp_abbr": {
+                "description": "温度显示是否显示设备缩写（例如'CPU:'）",
+                "type": "bool",
+                "default": true
+            }
+        }
+    },
+    "layout_config": {
+        "description": "卡片布局缩放设置",
+        "type": "object",
+        "items": {
+            "vertical_scale": {
+                "description": "竖屏模式整体缩放因子 (1.0为默认大小)",
+                "type": "float",
+                "default": 1.0,
+                "hint": "大于1.0放大，小于1.0缩小，例如1.2会放大20%"
+            },
+            "horizontal_scale": {
+                "description": "横屏模式整体缩放因子 (1.4为默认大小)",
+                "type": "float",
+                "default": 1.4,
+                "hint": "大于1.0放大，小于1.0缩小，例如1.2会放大20%"
+            }
+        }
+    }
+}

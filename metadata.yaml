@@ -1,0 +1,6 @@
+name: astrbot_plugin_VisiStat # 这是你的插件的唯一识别名。
+display_name: VisiStat
+desc: 可视化的系统硬件监控，可自定义美化以及自定义参数显示  # 插件简短描述
+version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: Rentz # 作者
+repo: https://github.com/Rentz412/astrbot_plugin_VisiStat # 插件的仓库地址
