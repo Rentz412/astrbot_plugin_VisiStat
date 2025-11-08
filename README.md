@@ -68,18 +68,18 @@ Tips:内置两张壁纸，默认使用bg2.png（横版），可自行切换bg1.p
 
 | 字段 | 描述 | 默认值 | 关键说明 |
 | :--- | :--- | :--- | :--- |
-| `main_title` | 卡片顶部的主标题 | `"服务器运行状态"` | |
+| `main_title` | 卡片顶部的主标题 | `服务器运行状态` | |
 | `custom_name` | 自定义系统信息/名称 | `default` | 留空或'default'显示系统信息。 |
 | `fixed_user_name` | 固定显示的用户昵称 | `AstrBot 用户` | |
-| `fixed_avatar_path` | 本地头像图片路径 | `"resources/avatar.png"` | 相对于插件根目录，留空则使用默认占位符。 |
+| `fixed_avatar_path` | 本地头像图片路径 | `resources/avatar.png` | 相对于插件根目录，留空则使用默认占位符。 |
 | `image_path` | 背景图片路径 | `resources/bg2.png` | 相对于插件根目录，留空则使用纯色背景。 |
 | `blur_radius` | 背景模糊半径 | `10` | 0为关闭模糊。 |
 | `content_font_path` | 字体文件路径 | `fonts/content.ttf` | ttf文件，相对于插件根目录，为空则尝试使用本机字体。 |
-| `background` | 纯色背景色 | `#ffffff` | 当无背景图时生效。 |
-| `bing_dark` | 饼图已占用色 | `#4c51bf` | |
-| `bing_light` | 饼图未占用色 | `#a8a8a8` | |
-| `font_color` | 正文字体颜色 | `#1a202c` | |
-| `title_font_color` | 主标题和昵称字体颜色 | `#1a202c` | |
+| `background` | 纯色背景色 | `#ffffff` | 白色，当无背景图时生效。 |
+| `bing_dark` | 饼图已占用色 | `#4c51bf` | 靛蓝 |
+| `bing_light` | 饼图未占用色 | `#a8a8a8` | 浅灰 |
+| `font_color` | 正文字体颜色 | `#1a202c` | 深蓝灰 |
+| `title_font_color` | 主标题和昵称字体颜色 | `#1a202c` | 深蓝灰 |
 | `monitor_cpu_temp` | 是否监控 CPU 温度 | `true` | |
 | `monitor_gpu_temp` | 是否监控 GPU 温度 | `false` | Win端可能无法监控。 |
 | `monitor_bat_temp` | 是否监控 电池 温度 | `false` | 笔记本或移动设备。|
