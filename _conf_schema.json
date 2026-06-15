@@ -33,8 +33,8 @@
             "image_path": {
                 "description": "背景图片路径（相对于插件根目录）",
                 "type": "string",
-                "default": "resources/bg2.png",
-                "hint": "例如：resources/bg2.png，为空则使用纯色背景"
+                "default": "resources/bg1.png",
+                "hint": "例如：resources/bg1.png，为空则使用纯色背景"
             },
             "blur_radius": {
                 "description": "背景模糊半径 (0为不模糊)",
@@ -132,15 +132,15 @@
         "type": "object",
         "items": {
             "vertical_scale": {
-                "description": "竖屏模式整体缩放因子 (1.0为默认大小)",
+                "description": "竖屏模式整体缩放因子 (1.1为默认大小)",
                 "type": "float",
-                "default": 1.0,
+                "default": 1.1,
                 "hint": "大于1.0放大，小于1.0缩小，例如1.2会放大20%"
             },
             "horizontal_scale": {
-                "description": "横屏模式整体缩放因子 (1.4为默认大小)",
+                "description": "横屏模式整体缩放因子 (1.3为默认大小)",
                 "type": "float",
-                "default": 1.4,
+                "default": 1.3,
                 "hint": "大于1.0放大，小于1.0缩小，例如1.2会放大20%"
             }
         }
